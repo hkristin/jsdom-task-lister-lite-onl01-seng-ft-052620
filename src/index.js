@@ -1,7 +1,7 @@
   const form = document.querySelector('form');
   const input = document.querySelector('input#new-task-description');
   const select = document.querySelector('select');
-  const taskList = document.querySelector("ul#tasks");
+  const taskList = document.querySelector('ul#tasks');
   const submitFormButton = document.querySelector('input#submit-form')
 
   const tasks = []
