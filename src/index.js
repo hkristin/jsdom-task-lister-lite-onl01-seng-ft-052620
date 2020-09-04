@@ -12,7 +12,7 @@
 
   let formStatus = "create"
   let editedTask = null;
-  
+
 document.addEventListener("DOMContentLoaded", () => {
   form().addEventListener("submit", submitForm);
   });
