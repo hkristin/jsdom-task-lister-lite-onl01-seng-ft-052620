@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   function submitForm(e) {
     e.preventDefault();
-
+    
     if (formStatus == "create") {
       createTodo();
     } else {
